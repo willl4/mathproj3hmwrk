@@ -10,8 +10,6 @@ def gcd(x, y):
     return x
 commondivisor = gcd(numerator, denominator)
 (reducednum, reducedden) = (numerator / commondivisor, denominator / commondivisor)
-
-
 nonrepeat = 0
 while reducedden%2 == 0 or reducedden%5 == 0 or reducedden%10 == 0:
     while reducedden%2 == 0 and reducedden%5 == 0:
